@@ -1,48 +1,35 @@
-# Code the Dream - Advanced Python Coursework
+# Code the Dream — Python Journey
 
-This repository contains my coursework from the 15-week Advanced Python program at Code the Dream.
+<!-- Personal journey narrative coming soon -->
 
-## Course Overview
+---
 
-This program covered advanced Python concepts including:
-- Object-oriented programming
-- Database operations with SQLite
-- Data analysis and visualization
-- Web applications with Streamlit
-- CSV file processing
-- SQL queries and database management
+## Python 101 — Advanced Python (15 weeks)
 
-## Repository Structure
+Core Python programming through real projects. Covered object-oriented programming, file and database operations with SQLite, data analysis and visualization, and built interactive web dashboards with Streamlit. Capstone: end-to-end housing price prediction using the Ames, Iowa real estate dataset.
 
-```
-ctd-python-coursework/
-├── assignments/          # Weekly assignments (1, 2, 3, 11)
-├── database-work/       # Database scripts and SQL exercises
-├── streamlit-projects/  # Streamlit web applications and visualizations
-├── requirements.txt     # Python dependencies
-└── README.md           # This file
-```
+→ [Python 101 coursework](./python-101/)
 
-## Setup
+---
 
-1. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+## Python 200 — Cloud & AI (11 weeks)
 
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+Builds directly on Python 101 into production-grade data engineering. Covers the full ML stack from classical algorithms to deep learning, then shifts to AI integration — large language models, retrieval-augmented generation, and autonomous agents — and finishes with cloud infrastructure on Microsoft Azure, connecting everything into an end-to-end cloud ETL pipeline.
 
-## Projects Included
+→ [Python 200 coursework](./python-200/)
 
-- **Assignments 1-3**: Core Python programming exercises
-- **Assignment 11**: Advanced data analysis and visualization
-- **Database Work**: SQLite operations, data loading, and queries
-- **Streamlit Projects**: Interactive data visualization dashboards
+---
 
-## About
+## Tech Stack
 
-Completed as part of the Code the Dream Advanced Python program.
+| Category | Tools |
+|---|---|
+| Data analysis | pandas, NumPy, matplotlib, seaborn |
+| Pipelines / orchestration | Prefect |
+| Machine learning | scikit-learn |
+| Deep learning | PyTorch, TorchVision |
+| AI / LLMs | OpenAI API, Ollama, LlamaIndex, smolagents |
+| Cloud | Microsoft Azure (Blob Storage, Azure OpenAI) |
+| Vector search | FAISS, pgvector |
+| Databases | SQLite, PostgreSQL |
+| Web apps | Streamlit |
