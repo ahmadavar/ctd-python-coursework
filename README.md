@@ -1,22 +1,24 @@
-# Code the Dream — Python Journey
+# Code the Dream — Python Coursework
 
-<!-- Personal journey narrative coming soon -->
+This repository contains my completed coursework from two programs at **[Code the Dream](https://codethedream.org/)**, a nonprofit that teaches tech skills to people from underserved communities.
 
----
-
-## Python 101 — Advanced Python (15 weeks)
-
-Core Python programming through real projects. Covered object-oriented programming, file and database operations with SQLite, data analysis and visualization, and built interactive web dashboards with Streamlit. Capstone: end-to-end housing price prediction using the Ames, Iowa real estate dataset.
-
-→ [Python 101 coursework](./python-101/)
+All curriculum, assignments, and learning materials were designed and built by Code the Dream. I am a student completing their programs.
 
 ---
 
-## Python 200 — Cloud & AI (11 weeks)
+## Programs
 
-Builds directly on Python 101 into production-grade data engineering. Covers the full ML stack from classical algorithms to deep learning, then shifts to AI integration — large language models, retrieval-augmented generation, and autonomous agents — and finishes with cloud infrastructure on Microsoft Azure, connecting everything into an end-to-end cloud ETL pipeline.
+### Python for Data Engineering — Advanced Python (15 weeks)
+A 15-week program covering core Python through real-world projects: object-oriented programming, database operations with SQLite, data analysis and visualization, and web dashboards with Streamlit. Capstone project: end-to-end housing price prediction on the Ames, Iowa real estate dataset.
 
-→ [Python 200 coursework](./python-200/)
+→ [My coursework](./python-101/)
+
+---
+
+### Python AI and Cloud Computing (11 weeks)
+An 11-week program building on the foundations above into production-grade data engineering. Covers the full ML stack from classical algorithms to deep learning, large language models, retrieval-augmented generation, AI agents, and cloud infrastructure on Microsoft Azure — ending with an end-to-end cloud ETL pipeline.
+
+→ [My coursework](./python-200/)
 
 ---
 
@@ -33,3 +35,7 @@ Builds directly on Python 101 into production-grade data engineering. Covers the
 | Vector search | FAISS, pgvector |
 | Databases | SQLite, PostgreSQL |
 | Web apps | Streamlit |
+
+---
+
+*Curriculum designed by [Code the Dream](https://codethedream.org/).*
