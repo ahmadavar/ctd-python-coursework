@@ -30,4 +30,4 @@ python-101/
 - **Database Work**: SQLite operations, data loading, queries
 - **Streamlit Projects**: Interactive data dashboards
 - **Ames Housing Price Prediction**: End-to-end ML capstone predicting housing prices from the Ames, Iowa real estate dataset
-- **National League Baseball Capstone**: Full data pipeline — web scraping historical stats with Selenium, parsing and cleaning raw CSVs, loading into SQLite, and building an interactive Streamlit dashboard for player and team analysis
+- **National League Baseball Capstone**: End-to-end data pipeline covering the full workflow — web scraping historical National League stats with Selenium, parsing and cleaning raw CSVs, loading into SQLite, and building an interactive Streamlit dashboard with dynamic charts, filters, and heatmaps for player and team performance analysis across eras
