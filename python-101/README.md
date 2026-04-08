@@ -9,6 +9,7 @@ Coursework from the foundational Python program at Code the Dream.
 - Database operations with SQLite
 - Data analysis and visualization
 - Web applications with Streamlit
+- Web scraping with Selenium
 
 ## Structure
 
@@ -17,7 +18,8 @@ python-101/
 ├── assignments/                    # Weekly assignments (1, 2, 3, 11)
 ├── database-work/                  # SQLite scripts and SQL exercises
 ├── streamlit-projects/             # Interactive Streamlit dashboards
-├── ames-housing-price-prediction/  # Capstone ML project (housing prices)
+├── ames-housing-price-prediction/  # Capstone: ML model on housing data
+├── baseball-capstone/              # Capstone: end-to-end baseball stats pipeline
 └── requirements.txt                # Python dependencies
 ```
 
@@ -27,4 +29,5 @@ python-101/
 - **Assignment 11**: Advanced data analysis and visualization
 - **Database Work**: SQLite operations, data loading, queries
 - **Streamlit Projects**: Interactive data dashboards
-- **Ames Housing Price Prediction**: End-to-end ML capstone using real estate data
+- **Ames Housing Price Prediction**: End-to-end ML capstone predicting housing prices from the Ames, Iowa real estate dataset
+- **National League Baseball Capstone**: Full data pipeline — web scraping historical stats with Selenium, parsing and cleaning raw CSVs, loading into SQLite, and building an interactive Streamlit dashboard for player and team analysis
