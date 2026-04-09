@@ -46,13 +46,5 @@ if __name__ == "__main__":
 
 
 # ── Reflection ───────────────────────────────────────────────────
-# Q: Why might Prefect be more overhead than it's worth here?
-# A: This pipeline is 3 small functions on 12 numbers. It runs in
-#    milliseconds, never fails, and needs no monitoring. Adding Prefect
-#    just adds complexity and a slower startup for no real benefit.
-
-# Q: When would Prefect be useful even with simple logic?
-# A: When the pipeline runs on a schedule (nightly, hourly), pulls from
-#    external APIs that can fail, processes large files, or needs to
-#    notify someone if something breaks. The logic stays simple but
-#    reliability and visibility become critical in production.
+# Using prefect for this task might seem pointless but for the larger projects
+# this is an amazing tool for engineers to see error before stakeholders get wrong data
